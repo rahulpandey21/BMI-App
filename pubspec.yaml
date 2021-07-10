@@ -1,0 +1,28 @@
+name: bmi_calculator
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_splash_screen: ^1.1.0
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^9.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Light.ttf
+    - family: Rajdhani
+      fonts:
+        - asset: fonts/Rajdhani-Medium.ttf
